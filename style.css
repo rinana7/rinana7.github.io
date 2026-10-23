@@ -1,21 +1,31 @@
+body {
+    background-color: #F7F5EF;
+}
+
+body, .navbar {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
-    background-color: rgb(169, 239, 190);
+    width: 100vw;
+    background-color: #D8C8B5;
     font-family: sans-serif;
     font-size: 1rem;
     display: flex;
-    min-height: 2.75ren;
+    min-height: 3rem;
     flex-direction: row;
     align-items: center;
     padding: 0.1rem;
 }
 
 .menu {
-    color: antiquewhite;
+    color: #292B27;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .menu:hover {
-    color: rgb(178, 223, 223);
+    color: rgb(71, 78, 78);
 }
 
