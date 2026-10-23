@@ -2,6 +2,22 @@ body {
     background-color: #F7F5EF;
 }
 
+h1 {
+    margin: 0;
+    margin-top: -110px;
+    padding: 0;
+    font-family: "Erica One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12rem;
+}
+
+.title {
+    margin: 70px;
+    margin-top: 10vw;
+}
+
+
 body, .navbar {
     margin: 0;
     padding: 0;
