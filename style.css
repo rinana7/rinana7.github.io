@@ -1,12 +1,33 @@
 body {
+    padding-top: 60px;
     background-color: #F7F5EF;
     height: 2200px;
 }
 
 .top {
+    position: relative;
     background-color: #8B9A76;
-    height: 35%;
+    height: 30%;
 }
+
+#shape {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 64%;
+    height: 100VH;
+    margin-left: auto;
+    background-color: #D99A98;
+    clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.title {
+    position: relative;
+    margin: 0;
+    padding-left: 4rem;
+    padding-top: 100px;
+}
+
 
 .Menu {
     background-color: #F7F5EF;
@@ -29,15 +50,8 @@ h1 {
     color: #F7F5EF;
     font-weight: 500;
     font-style: normal;
-    font-size: 15rem;
+    font-size: 13rem;
 }
-
-.title {
-    margin: 0;
-    padding-left: 4rem;
-    padding-top: 100px;
-}
-
 
 body, .navbar, h1 {
     margin: 0;
