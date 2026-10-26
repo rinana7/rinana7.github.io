@@ -1,37 +1,57 @@
 body {
     background-color: #F7F5EF;
+    height: 2200px;
+}
+
+.top {
+    background-color: #8B9A76;
+    height: 35%;
+}
+
+.Menu {
+    background-color: #F7F5EF;
+    height: 19%;
+}
+
+.about {
+    background-color: #D99A98;
+    height: 23%;
+}
+
+.visit {
+    background-color: #D8C8B5;
+    height: 23%;
 }
 
 h1 {
-    margin: 0;
-    margin-top: -110px;
-    padding: 0;
     font-family: "Erica One", sans-serif;
+    line-height: 0.75;
+    color: #F7F5EF;
     font-weight: 500;
     font-style: normal;
     font-size: 12rem;
 }
 
 .title {
-    margin: 70px;
-    margin-top: 10vw;
+    margin: 0;
+    padding-left: 4rem;
+    padding-top: 100px;
 }
 
 
-body, .navbar {
+body, .navbar, h1 {
     margin: 0;
     padding: 0;
 }
 
 .navbar {
-    width: 100vw;
-    font-family: sans-serif;
-    font-size: 1rem;
-    display: flex;
-    min-height: 3rem;
-    flex-direction: row;
-    align-items: center;
-    padding: 0.1rem;
+    background-color: #F7F5EF;
+    width: 100%;
+    font-family: "Cantarell", sans-serif;
+    font-size: 1.1rem;
+    position: fixed;
+    top: 0;
+    padding: 15px 10px;
 }
 
 .menu {
