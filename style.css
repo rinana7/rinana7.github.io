@@ -1,71 +1,22 @@
 body {
-    padding-top: 60px;
+    margin: 0;
+    padding: 0;
     background-color: #F7F5EF;
     height: 2200px;
 }
 
-.top {
-    position: relative;
-    background-color: #8B9A76;
-    height: 30%;
-}
-
-#shape {
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    width: 64%;
-    height: 100VH;
-    margin-left: auto;
-    background-color: #D99A98;
-    clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
-}
-
-.title {
-    position: relative;
-    margin: 0;
-    padding-left: 4rem;
-    padding-top: 100px;
-}
-
-
-.Menu {
-    background-color: #F7F5EF;
-    height: 19%;
-}
-
-.about {
-    background-color: #D99A98;
-    height: 23%;
-}
-
-.visit {
-    background-color: #D8C8B5;
-    height: 23%;
-}
-
-h1 {
-    font-family: "Erica One", sans-serif;
-    line-height: 0.75;
-    color: #F7F5EF;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 13rem;
-}
-
-body, .navbar, h1 {
-    margin: 0;
-    padding: 0;
-}
-
+/* Navigation bar */
 .navbar {
     background-color: #F7F5EF;
     width: 100%;
+    box-sizing: border-box;
     font-family: "Cantarell", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     position: fixed;
     top: 0;
+    left: 0;
     padding: 15px 10px;
+    z-index: 10;
 }
 
 .menu {
@@ -75,6 +26,64 @@ body, .navbar, h1 {
 }
 
 .menu:hover {
-    color: rgb(71, 78, 78);
+    color: #8B9A76;
 }
 
+/* Hero section */
+.top {
+    position: relative;
+    background-color: #8B9A76;
+    height: 76vh;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+/* Pink diagonal shape */
+#shape {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    right: 0;
+    width: 64%;
+    height: auto;
+    background-color: #D99A98;
+    clip-path: polygon(39% 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 0;
+}
+
+/* Main heading */
+.title {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding-left: 4rem;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: "Erica One", sans-serif;
+    line-height: 0.75;
+    color: #F7F5EF;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(5rem, 12vw, 13rem);
+    margin: 0;
+}
+
+/* Menu section */
+.Menu {
+    background-color: #F7F5EF;
+    height: 19%;
+}
+
+/* About section */
+.about {
+    background-color: #D99A98;
+    height: 23%;
+}
+
+/* Visit section */
+.visit {
+    background-color: #D8C8B5;
+    height: 23%;
+}
