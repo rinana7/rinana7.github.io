@@ -66,8 +66,28 @@ h1 {
     color: #F7F5EF;
     font-weight: 400;
     font-style: normal;
-    font-size: clamp(5rem, 12vw, 13rem);
+    font-size: 10rem;
     margin: 0;
+}
+
+.menu-link {
+    display: flex;
+    width: fit-content;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    color: #F7F5EF;
+    background-color: transparent;
+    border: 2px solid #F7F5EF;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    background-color: #F7F5EF;
+    color: #292B27;
 }
 
 /* Menu section */
