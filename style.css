@@ -51,6 +51,15 @@ body {
     z-index: 0;
 }
 
+#head_image{
+    width: 850px;
+    position: absolute;
+    top: -120px;
+    right: 20px;
+    transform: translate(-20px, 40px);    
+    z-index: 1;
+}
+
 /* Main heading */
 .title {
     position: relative;
