@@ -151,6 +151,12 @@ h1 {
     display: block;
 }
 
+/* Seasonal Special section */
+.seasonal {
+    background-color: #D8C8B5;
+    height: 23%;
+}
+
 /* About section */
 .about {
     background-color: #D99A98;
@@ -164,10 +170,4 @@ h1 {
 .about .cake{
     width: 500px;
     margin-left: auto;
-}
-
-/* Visit section */
-.visit {
-    background-color: #D8C8B5;
-    height: 23%;
 }
