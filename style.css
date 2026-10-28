@@ -105,10 +105,13 @@ h1 {
     min-height: 500px;
     padding: 40px;
     box-sizing: border-box;
-    font-family: "Cantarell", sans-serif;
-    font-size: 30px;
     display: flex;
     overflow: hidden;
+}
+
+.text {
+    font-family: "Cantarell", sans-serif;
+    font-size: 30px;
 }
 
 #link {
@@ -151,7 +154,16 @@ h1 {
 /* About section */
 .about {
     background-color: #D99A98;
-    height: 23%;
+    min-height: 500px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+}
+
+.about .cake{
+    width: 500px;
+    margin-left: auto;
 }
 
 /* Visit section */
