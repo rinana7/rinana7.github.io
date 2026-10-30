@@ -171,6 +171,28 @@ h1 {
 .seasonal {
     background-color: #D8C8B5;
     height: 23%;
+    overflow: hidden;
+    position: relative;
+}
+
+.seasonal #special {
+    width: 100%;
+    object-fit: cover;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+.text {
+    margin-top: 20rem;
+    margin-left: 3rem;
+    position: absolute;
+    font-family: "Cantarell", sans-serif;
+    color: #292B27;
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
 }
 
 /* About section */
