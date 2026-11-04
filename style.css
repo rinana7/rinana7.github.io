@@ -205,6 +205,12 @@ h1 {
     overflow: hidden;
 }
 
+.about .text {
+    margin: 0;
+    padding: 0;
+    line-height: 0.85;
+}
+
 .about .cake{
     width: 500px;
     margin-left: auto;
