@@ -9,7 +9,6 @@ body {
 .navbar {
     background-color: #F7F5EF;
     width: 100%;
-    box-sizing: border-box;
     font-family: "Cantarell", sans-serif;
     font-size: 1.2rem;
     position: fixed;
@@ -17,6 +16,12 @@ body {
     left: 0;
     padding: 15px 10px;
     z-index: 10;
+}
+
+#logo {
+    font-family: "Redaction 10", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .menu {
