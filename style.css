@@ -222,15 +222,19 @@ h1 {
 
 /* About section */
 .about {
+    font-family: "Cantarell", sans-serif;
     background-color: #D99A98;
-    min-height: 500px;
-    padding: 40px;
+    min-height: 400px;
+    padding: 20px;
+    align-items: center;
     box-sizing: border-box;
     display:grid;
-    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    font-family: "Cantarell", sans-serif;
+    gap: 20px;
+}
+
+.about-intro {
+    font-size: 1.5rem;
 }
 
 .about-image img {
@@ -238,10 +242,10 @@ h1 {
     display: block;
     margin: auto;
     object-fit: contain;
+    border-radius: 40px;
 }
 
 /* MENU */
-
 .menu-page {
     background-color: #F7F5EF;
     color: #292B27;
