@@ -182,10 +182,12 @@ h1 {
 }
 
 .seasonal #special {
-    width: 100%;
-    object-fit: cover;
-    transform: translate(0, -50%);
     position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    inset: 0;
 }
 
 .seasonal .text {
