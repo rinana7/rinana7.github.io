@@ -130,9 +130,10 @@ h1 {
     overflow: hidden;
 }
 
-.text {
+.Menu .text {
+    position: static;
+    margin: 0;
     font-family: "Cantarell", sans-serif;
-    font-size: 30px;
 }
 
 #link {
@@ -174,10 +175,10 @@ h1 {
 
 /* Seasonal Special section */
 .seasonal {
-    background-color: #D8C8B5;
-    height: 23%;
-    overflow: hidden;
     position: relative;
+    height: 550px;
+    background-color: #D8C8B5;
+    overflow: hidden;
 }
 
 .seasonal #special {
@@ -187,12 +188,11 @@ h1 {
     position: absolute;
 }
 
-.text {
-    margin-top: 20rem;
-    margin-left: 3rem;
+.seasonal .text {
     position: absolute;
-    font-family: "Cantarell", sans-serif;
-    color: #292B27;
+    left: 3rem;
+    bottom: 3rem;
+    margin: 0;
 }
 
 .text p {
