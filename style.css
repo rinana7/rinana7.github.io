@@ -132,16 +132,39 @@ h1 {
 .Menu {
     background-color: #F7F5EF;
     min-height: 500px;
-    padding: 40px;
+    padding: 60px 40px;
     box-sizing: border-box;
+
     display: flex;
-    overflow: hidden;
+    gap: 40px;
+    align-items: center;
 }
 
 .Menu .text {
     position: static;
+    flex: 0 0 180px;
     margin: 0;
-    font-family: "Cantarell", sans-serif;
+}
+
+#cake_menu {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 15px;
+    flex: 1;
+}
+
+.cake {
+    width: 100%;
+    height: 300px;
+    min-width: 0;
+    overflow: hidden;
+    clip-path: inset(0% 0% 0% 15% round 0% 20% 0% 0%);
+}
+
+.cake img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #link {
@@ -158,27 +181,6 @@ h1 {
 #link:hover {
     color: #8B9A76;
     border-color: #8B9A76;
-}
-
-#cake_menu {
-    display: flex;
-    gap: 20px;
-    align-items: stretch;
-}
-
-.cake {
-    width: 300px;
-    height: 400px;
-    flex-shrink: 0;
-    overflow: hidden;
-    clip-path: inset(0% 0% 0% 15% round 0% 20% 0% 0%);
-}
-
-.cake img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
 }
 
 /* Seasonal Special section */
