@@ -45,7 +45,6 @@ body {
 .top {
     position: relative;
     background-color: #8B9A76;
-    height: 76vh;
     min-height: 600px;
     overflow: hidden;
 }
@@ -73,7 +72,7 @@ body {
     transform: scale(1.1);
   }
   100% {
-    transform: scale(1) translate(-40px, 20px); 
+    transform: scale(1) translate(20px, 30px); 
   }
 }
 
@@ -244,6 +243,18 @@ h1 {
     object-fit: contain;
     border-radius: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MENU */
 .menu-page {
