@@ -203,7 +203,16 @@ h1 {
     position: absolute;
     left: 3rem;
     bottom: 3rem;
-    margin: 0;
+    padding: 20px;
+    color: #E8E1D6;
+    font-family: "Cantarell", sans-serif;
+    background-color: #77766fc1;
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+.seasonal .text:hover{
+    transform: scale(1.05);
 }
 
 .text p {
@@ -219,21 +228,17 @@ h1 {
     box-sizing: border-box;
     display:grid;
     align-items: center;
-    grid-template-columns: 20rem 20rem 20rem;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    font-family: "Cantarell", sans-serif;
 }
 
 .about-image img {
     width: 100%;
-    max-width: 400px;
     display: block;
     margin: auto;
     object-fit: contain;
 }
-
-
-
-
 
 /* MENU */
 
@@ -259,9 +264,7 @@ h1 {
     font-size: 2rem;
 }
 
-
 /* MENU INTRODUCTION */
-
 .menu-intro {
     min-height: 620px;
     padding: 150px 8% 70px;
@@ -338,9 +341,7 @@ h1 {
     color: #8B9A76;
 }
 
-
 /* PRODUCT SECTIONS*/
-
 .menu-section {
     padding: 90px 8%;
     background-color: #F7F5EF;
@@ -366,9 +367,7 @@ h1 {
     letter-spacing: 2px;
 }
 
-
 /* PRODUCT*/
-
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
