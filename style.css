@@ -132,13 +132,13 @@ h1 {
     min-height: 500px;
     padding: 60px 40px;
     box-sizing: border-box;
-
     display: flex;
     gap: 40px;
     align-items: center;
 }
 
 .Menu .text {
+    font-family: "Cantarell", sans-serif;
     position: static;
     flex: 0 0 180px;
     margin: 0;
