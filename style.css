@@ -218,17 +218,16 @@ h1 {
     min-height: 500px;
     padding: 40px;
     box-sizing: border-box;
-    display: flex;
-    overflow: hidden;
+    display:grid;
+    align-items: center;
+    grid-template-columns: 20rem 20rem 20rem;
+    gap: 30px;
 }
 
-.about .text {
-    margin: 0;
-    padding: 0;
-    line-height: 0.85;
-}
-
-.about .cake{
-    width: 500px;
-    margin-left: auto;
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    object-fit: contain;
 }
