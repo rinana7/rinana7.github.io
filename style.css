@@ -321,18 +321,38 @@ h1 {
 }
 
 .intro-image {
-    width: 100%;
+    width: 330px; 
     height: 430px;
-    overflow: hidden;
+    display: inline-block;
+    position: relative;
 }
 
 .intro-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
+.intro-image .hover {
+    opacity: 0;
+}
+
+.intro-image:hover .hover {
+    animation: fadeIn 0.5s ease-in-out forwards; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 /* CATEGORY NAV */
 .menu-categories {
