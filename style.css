@@ -227,7 +227,7 @@ h1 {
     padding: 20px;
     align-items: center;
     box-sizing: border-box;
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
@@ -236,20 +236,47 @@ h1 {
     font-size: 1.5rem;
 }
 
-.about-image img {
-    width: 100%;
-    display: block;
+.about-image{
+        width: 100%;
     margin: auto;
-    object-fit: contain;
-    border-radius: 40px;
+    position: relative;
+    display: inline-block;
+    border-radius: 40px;    
+    overflow: hidden; 
 }
 
+.about-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
+.about-image .base {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
 
+.about-image .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+}
 
-
-
-
+.about-image:hover .hover {
+    animation: fadeIn 0.5s ease-in-out forwards; 
+}
 
 
 
