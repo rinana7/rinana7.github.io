@@ -256,16 +256,40 @@ h1 {
     align-items: center;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.8fr 0.9fr;
     gap: 20px;
 }
 
-.about-intro {
-    font-size: 1.5rem;
+.about-intro h3 {
+    font-family: "Erica One", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.05;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.about-intro p {
+    font-family: "Cantarell", sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
 }
 
 .about-intro .label{
-    color: rgba(255, 255, 255, 0.865);
+    color:#080808;
+}
+
+.about-info {
+    font-family: "Cantarell", sans-serif;
+}
+
+.about-info h5 {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.about-info p{
+    font-size: 15px;
+    transform: translate(30px, -20px);
 }
 
 .about-image{
