@@ -339,6 +339,8 @@ h1 {
 
 
 
+
+
 /* MENU */
 .menu-page {
     background-color: #F7F5EF;
@@ -593,6 +595,22 @@ h1 {
     font-size: 16px;
 }
 
+
+/* Back to top button */
+.backTop {
+    clip-path: circle(50%);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 16px;
+    background: #657d6b4f;
+    color: white;
+    text-decoration: none;
+}
+
+.backTop:hover {
+    background: #6a6d67;
+}
 
 /* FOOTER */
 footer{
