@@ -598,18 +598,26 @@ h1 {
 
 /* Back to top button */
 .backTop {
-    clip-path: circle(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 10px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 12px 16px;
+    padding: 16px;
+
     background: #657d6b4f;
     color: white;
     text-decoration: none;
 }
 
 .backTop:hover {
-    background: #6a6d67;
+    background: #6a6d6799;
 }
 
 /* FOOTER */
