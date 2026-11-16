@@ -606,13 +606,14 @@ h1 {
     right: 20px;
     padding: 16px;
 
-    background: #657d6b4f;
+    background: #657d6b89;
     color: white;
     text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .backTop:hover {
-    background: #6a6d6799;
+    background: #6a6d67c1;
 }
 
 /* FOOTER */
