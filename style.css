@@ -573,6 +573,11 @@ h1 {
     font-size: 16px;
 }
 
+/* Mascot */
+.mascot {
+    padding: 5px;
+    position: absolute;
+}
 
 /* Back to top button */
 .backTop {
