@@ -77,11 +77,12 @@ body {
 }
 
 #head_image{
-    width: 850px;
+    width: min(65vw, 850px);
+    max-width: 100%;
+    height: auto;
     position: absolute;
     top: -120px;
-    right: 20px;   
-    z-index: 1;
+    right: 20px;
     animation-name: getbigger;
     animation-duration: 3s;
     animation-fill-mode: forwards;
