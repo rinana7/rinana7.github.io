@@ -348,14 +348,6 @@ h1 {
     color: #292B27;
 }
 
-/* navBar */
-.menu-page .navbar {
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 15px 35px;
-    height: 75px;
-}
 
 .menu-page #logo {
     position: absolute;
