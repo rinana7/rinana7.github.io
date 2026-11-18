@@ -575,8 +575,11 @@ h1 {
 
 /* Mascot */
 .mascot {
-    padding: 5px;
+    border-radius: 10px;
     position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 16px;
 }
 
 /* Back to top button */
