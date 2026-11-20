@@ -474,6 +474,7 @@ h1 {
 
 .product-card {
     min-width: 0;
+    position: relative;
 }
 
 .product-image {
@@ -587,13 +588,11 @@ h1 {
 }
 
 #mascot_2 {
-    width: 100px;
+    width: 70px;
     height: auto;
-    position:relative;
+    position: absolute;
     transform: rotate(-20deg);
     z-index: 0;
-    bottom: 45%;
-    left: 30%;
 }
 
 /* Back to top button */
