@@ -5,6 +5,38 @@ body {
     padding-top: 70px;
 }
 
+
+/* animation screen */
+#screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    color: #8B9A76;
+    z-index: 100;
+}
+
+#title{
+    color: #292B27;
+    font-size: 20rem;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes insideO{
+    0%{
+        opacity: 1;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
 /* Navigation bar */
 .navbar {
     background-color: #F7F5EF;
@@ -104,7 +136,7 @@ body {
     padding-top: 100px;
 }
 
-h1 {
+.title h1 {
     font-family: "Erica One", sans-serif;
     line-height: 0.75;
     color: #F7F5EF;
